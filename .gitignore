@@ -1,0 +1,14 @@
+# Local Python environments
+.venv/
+.venv313/
+
+# Competition data
+data/
+
+# Generated predictions
+submissions/
+
+# Jupyter / Python temporary files
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
