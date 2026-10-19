@@ -59,7 +59,7 @@ All required Python package versions are pinned in `requirements.txt`.
 
 ### Windows
 
-From the repository root, create a fresh virtual environment:
+From the repository root, create a fresh virtual environment using a Python 3.13 installation:
 
 ```powershell
 py -3.13 -m venv .venv
@@ -74,7 +74,7 @@ Activate it:
 Install the required packages:
 
 ```powershell
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 ### macOS / Linux
